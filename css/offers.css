@@ -1,0 +1,17 @@
+#home_offers{
+    background: url('../img/offers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+#home_offers h1{
+    font-size: 60px;
+    color: #531E6C;
+    font-weight: 800;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+}
+#home_offers h2{
+    color: #531E6C;
+}

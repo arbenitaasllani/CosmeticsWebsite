@@ -1,0 +1,93 @@
+#home_about{
+    background: url('../img/bg_about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+#home_about h1{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 800;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+}
+#home_about h2{
+    color: #FFFFFF;
+}
+.company_history{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.about_tittle{
+    font-size: 36px;
+    letter-spacing: 10px;
+    padding-bottom: 30px;
+}
+.purple_color{
+    color: rgba(243, 172, 191, 1);
+    font-weight: 800;
+}
+.about_paragraph{
+    font-size: 20px;
+    line-height: 32px;
+}
+.mid_paragraph{
+    padding: 30px 0;
+}
+
+/* Contact */
+#contact .container{
+    display: flex;
+    flex-direction: row;
+}
+.contact_div{
+    width: 40%;
+    border: 1px solid #B1B1B1;
+    border-radius: 15px;
+    padding: 40px;
+}
+.contact_div h3{
+    font-size: 26px;
+    color: #531E6C;
+    font-weight: 800;
+}
+.contact_form{
+    margin-bottom: 30px;
+}
+.input{
+    width: 97%;
+    padding: 10px 0px;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    border: 1px solid #B1B1B1;
+    border-radius: 10px;
+}
+.textarea_msg{
+    height: 150px;
+    padding-top: 10px;
+}
+.submit_btn{
+    border-radius: 20px;
+    color: white;
+    margin-top: 18px;
+    padding: 10px 15px;
+    background-color: #531E6C;
+    font-size: 18px;
+    border: none;
+}
+.submit_btn:hover{
+    background-color: white;
+    color: #531E6C;
+    border: 2px solid #531E6C;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.location_div{
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 0;
+}
